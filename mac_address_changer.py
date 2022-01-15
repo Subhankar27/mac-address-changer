@@ -17,6 +17,8 @@ def get_arguments():
         
     return options
 
+
+
 def change_mac(interface, new_mac):
     print("[+] Changing MAC address for " + interface + " to" + new_mac)
 
