@@ -14,6 +14,7 @@ def get_arguments():
         
     elif not options.new_mac:
         parser.error("[-] Please spicify an interface , use --help for more info.")
+        
     return options
 
 def change_mac(interface, new_mac):
